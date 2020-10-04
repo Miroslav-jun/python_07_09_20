@@ -14,12 +14,10 @@
 """
 from abc import ABC, abstractmethod
 
-
 class Clothes(ABC):
     @abstractmethod
     def consumption(self):
         pass
-
 
 class Coat(Clothes):
     def __init__(self, coat_size):
